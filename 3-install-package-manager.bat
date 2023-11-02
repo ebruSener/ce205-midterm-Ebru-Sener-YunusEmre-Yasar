@@ -24,12 +24,14 @@ if !errorlevel! == 0 (
     echo Scoop is already installed.
 ) else (
     echo Scoop is not installed. Installing Scoop...
-    powershell -Command "iex (Invoke-WebRequest -Uri get.scoop.sh).Content" -RunAsAdmin
+    powershell -Command "irm get.scoop.sh -outfile 'install.ps1'"
+    powershell -Command ".\install.ps1 -RunAsAdmin"
     if errorlevel 1 (
         echo Failed to install Scoop.
         goto :end
     )
     powershell -Command "Set-ExecutionPolicy RemoteSigned -scope CurrentUser"
+    del install.ps1
     echo Scoop installed successfully.
 )
 
