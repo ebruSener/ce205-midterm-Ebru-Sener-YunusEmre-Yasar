@@ -101,13 +101,13 @@ if(ENABLE_UTILITY)
 endif()
 
 # Logger submodule
-if(ENABLE_CALCULATOR)
-	add_subdirectory(${ROOT}/calculator)
+if(ENABLE_SCHOOLSYSTEM)
+	add_subdirectory(${ROOT}/schoolsystem)
 endif()
 
 # BigInteger for Crypto submodule
-if(ENABLE_CALCULATOR_APP)
-	add_subdirectory(${ROOT}/calculatorapp)
+if(ENABLE_SCHOOLSYSTEM_APP)
+	add_subdirectory(${ROOT}/schoolsystemapp)
 endif()
 
 # Tests
