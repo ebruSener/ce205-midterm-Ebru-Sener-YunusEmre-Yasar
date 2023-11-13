@@ -37,7 +37,7 @@ if(ENABLE_UTILITY)
 	add_subdirectory(utility)
 endif()
 
-# Schoolsystem tests
+# SCHOOLSYSTEM tests
 if(ENABLE_SCHOOLSYSTEM)
 	add_subdirectory(schoolsystem)
 endif()

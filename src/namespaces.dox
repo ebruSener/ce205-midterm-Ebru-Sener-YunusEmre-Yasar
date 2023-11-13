@@ -4,22 +4,22 @@
  */
 
 /**
- * @namespace Coruh
- * @brief Root namespace for all Coruh-related code.
+ * @namespace School
+ * @brief Root namespace for all School-related code.
  *
- * This is the top-level namespace for all components, classes, and functions related to the Coruh library.
+ * This is the top-level namespace for all components, classes, and functions related to the School library.
  */
  
  /**
- * @namespace Coruh::Utility
+ * @namespace School::Utility
  * @brief Namespace for general utility functions and classes.
  *
  * This namespace contains a collection of utility functions and classes that provide commonly-used functionality.
  */
 
  /**
- * @namespace Coruh::Calculator
- * @brief Namespace for calculator functions and classes.
+ * @namespace School::Schoolsystem
+ * @brief Namespace for schoolsystem functions and classes.
  *
- * This namespace contains a collection of calculator functions and classes that provide commonly-used functionality.
+ * This namespace contains a collection of schoolsystem functions and classes that provide commonly-used functionality.
  */
